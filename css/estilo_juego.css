@@ -1,9 +1,45 @@
 .btn_inicio{
     margin: 0 auto;
-    width: 500px;
-    
+    width: 30vw;
+    height: 100vh;
+    justify-content: center !important;
+    display: none !important;
+   
 }
 
 .cont_input_juego{
-display: none !important;
+display: flex !important;
+margin: 0 auto;
+width: 30vw;
+height: 100vh;
+justify-content: center !important;
+align-items: center;
+color: white;
+font-size: 24px;
+}
+
+.cont_magico{
+    background-image: url(/img/fondo_numero_magico1920x1080.jpg);
+}
+
+.btn_adivinar{
+    margin: 8px auto;
+    width: 50%;
+    align-self: center;
+   padding: 2px 3px !important;
+}
+
+.input_adivinar{
+    margin: 5px auto;
+    text-align: center;
+    width: 10vw;
+}
+.txt_adivinar{
+    background-color: #0000006e;
+}
+.form-group{
+    padding: 15px 15px !important;
+    background-color: #0000006e;
+    width: 50vw;
+    text-align: center;
 }

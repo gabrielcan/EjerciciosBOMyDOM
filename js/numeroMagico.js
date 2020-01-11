@@ -48,9 +48,10 @@ let i = 3;
 let resultado = numAleat();
 console.log(resultado); // se muestra el valor aleatorio
 
-let valor = prompt('adivine el numero de 1 a 10:');
+let valor = document.getElementById('num').value;
 
-inicioJuego(valor, i, resultado) 
+
+//inicioJuego(valor, i, resultado) 
 
 
 
