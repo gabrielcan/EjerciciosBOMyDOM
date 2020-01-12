@@ -21,21 +21,26 @@
 
     <div id="cont_input" class="cont_input_juego flex-column">
 
-       <div class="form-group cont_form_adivinar">
-            <label class="txt_adivinar" for="num">Ingrese un numero del 1 al 10</label>
+       <div class="form-group" id="cont_form_adivinar">
+            <label class="txt_adivinar" for="num">Ingrese un número del 0 al 10</label>
             <input type="number" class="form-control input_adivinar" name="num" id="num" aria-describedby="numero" placeholder="numero">
            
             <button type="button" class="btn btn-primary btn-lg btn-block btn_adivinar" id="adivinar" onclick="inicioJuego(resultado)">ADIVINAR</button>
        </div>
-       <div id='valor_oprt'></div>
-   
+       <div id='valor_oprt'>
+        <label class="d-flex m-0"> OPORTUNIDADES RESTANTES: </label>
+           <label id="lab_valor_oprt"></label>
+       </div>
+       <div id="resultado">
+           <label id="txt_result"></label>
+        <img src="/img/emoticon_perdiste.gif"  id="emoticon" alt="">
+        <img src="/img/Ganaste.gif"  id="emoticon2" alt="">
+            </div>
     </div>
 
    
 
-    <div id="resultado">
-
-    </div>
+   
 </div>
 <!-- javascript -->
 
