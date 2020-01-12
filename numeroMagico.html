@@ -25,18 +25,22 @@
             <label class="txt_adivinar" for="num">Ingrese un numero del 1 al 10</label>
             <input type="number" class="form-control input_adivinar" name="num" id="num" aria-describedby="numero" placeholder="numero">
            
-            <button type="button" class="btn btn-primary btn-lg btn-block btn_adivinar" id="adivinar">ADIVINAR</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block btn_adivinar" id="adivinar" onclick="inicioJuego(resultado)">ADIVINAR</button>
        </div>
+       <div id='valor_oprt'></div>
    
     </div>
 
-    <script src="/js/numeroMagico.js"></script>
+   
 
     <div id="resultado">
 
     </div>
 </div>
 <!-- javascript -->
+
+<script src="/js/numeroMagico.js"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
