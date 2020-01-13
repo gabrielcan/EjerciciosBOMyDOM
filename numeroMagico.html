@@ -14,16 +14,16 @@
 
 <body>
 <div class="container-fluid cont_magico">
-    <div id="cont_button_inicio" class="btn_inicio d-flex flex-column">
+    <div id="cont_button_inicio" class="btn_inicio flex-column">
 
-        <button type="button" class="btn btn-primary btn-lg btn-block" id="inicio">COMENZAR JUEGO</button>
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="inicio" onclick="entrar()">COMENZAR JUEGO</button>
     </div>
 
     <div id="cont_input" class="cont_input_juego flex-column">
 
        <div class="form-group" id="cont_form_adivinar">
             <label class="txt_adivinar" for="num">Ingrese un número del 0 al 10</label>
-            <input type="number" class="form-control input_adivinar" name="num" id="num" aria-describedby="numero" placeholder="numero">
+            <input type="number" class="form-control input_adivinar" name="num" id="num" aria-describedby="numero" placeholder="Ingresa">
            
             <button type="button" class="btn btn-primary btn-lg btn-block btn_adivinar" id="adivinar" onclick="inicioJuego(resultado)">ADIVINAR</button>
        </div>

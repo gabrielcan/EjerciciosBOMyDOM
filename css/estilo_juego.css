@@ -1,14 +1,14 @@
-.btn_inicio{
+#cont_button_inicio{
     margin: 0 auto;
     width: 30vw;
     height: 100vh;
     justify-content: center !important;
-    display: none !important;
+    display: flex;
    
 }
 
-.cont_input_juego{
-display: flex !important;
+#cont_input{
+display: none;
 margin: 0 auto;
 width: 30vw;
 height: 100vh;
@@ -19,7 +19,9 @@ font-size: 24px;
 }
 
 .cont_magico{
-    background-image: url(/img/fondo_numero_magico2.jpg);
+    background-image: url(/img/fondo_numero_magico3.jpg);
+    
+
 }
 #cont_form_adivinar{
     display: flex;
@@ -37,6 +39,7 @@ font-size: 24px;
     margin: 5px auto;
     text-align: center;
     width: 10vw;
+    
 }
 .txt_adivinar{
     background-color: #0000006e;
@@ -50,7 +53,7 @@ font-size: 24px;
 #resultado{
     display: flex !important;
     margin: 8px auto;
-    width: 62%;
+    width: 100%;
    padding: 2px 3px !important;
    text-align: center;
    font-size: 28px;
@@ -59,11 +62,12 @@ font-size: 24px;
 #valor_oprt{
     width: 50vw;
     text-align: center;
-  display: flex;
+  display: none;
   justify-content: center;
   background-color: #000000e6;
 
 }
+
 #emoticon{
     width: 100%;
     display: none;
